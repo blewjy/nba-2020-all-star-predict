@@ -71,15 +71,13 @@ This will print out the predictions for the 2020 All-Stars with my pre-trained m
 
 ### Getting the data
 
-> NOTE: If you just want to run the predictions with my pre-trained models, skip to "Getting the predictions"
-
 > NOTE: You really don't have to scrap for years 2019 and before, because the stats will not change. You could scrap for 2020 to update to the latest available stats though.
 
 All the data is obtained from *basketball-reference.com*. I wrote a basic web scraper to scrap the data required, specifically the split data for each NBA season for all players that are active before the All Star Game (ASG) of each season. 
 
-`data/bb_ref.py` contains all the API for the scraping.
-`data/scrap.py` is a script to scrap all data for a specific season
-`data/process_data.py` is a script to convert all the JSON scraped into csv file suitable for our training algorithms
+- `data/bb_ref.py` contains all the API for the scraping.
+- `data/scrap.py` is a script to scrap all data for a specific season
+- `data/process_data.py` is a script to convert all the JSON scraped into csv file suitable for our training algorithms
 
 To run the scraper for a specific year (for e.g. 2020), navigate to the `data` folder and run:
 
@@ -118,7 +116,13 @@ The final scores (test score, F1 score, etc) will be saved into `final_scores.js
 
 ### Getting the predictions
 
-To predict the All-Stars for 2020, simply run `python predict.py`. The predicted 2020 All-Stars will be printed onto the console.
+To predict the All-Stars for 2020, simply run:
+
+```
+python predict.py
+```
+
+The predicted 2020 All-Stars will be printed onto the console.
 
 ## Acknowledgements
 
