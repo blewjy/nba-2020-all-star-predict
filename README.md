@@ -21,6 +21,7 @@ Three different algorithms were used for this project, namely **Decision Trees w
 While **Decision Trees with Boosting** had the best performance out of the three algorithms (by a slim margin), all three of them performed relatively similar to each other. I decided to use the average (normalized) probabilities predicted by each of these algorithms for the final result:
 
 *(Ran prediction on 5th Jan 2020)*
+
 | **East**              |     |       | **West**           |     |       |
 | --------------------- | --- | ----- | ------------------ | --- | ----- |
 | **Starters:**         |     |       | **Starters:**      |     |       |
@@ -55,6 +56,18 @@ You are recommended to create a new virtual environment and install all dependen
 ```
 pip install -r requirements.txt
 ```
+
+### Quick Start
+
+If you just want to clone and run the predictions, make sure you have either setup the virtual environment as above or have already install the dependencies, and do
+
+```
+git clone https://github.com/blewjy/nba-2020-all-star-predict.git
+cd nba-2020-all-star-predict
+python predict.py
+```
+
+This will print out the predictions for the 2020 All-Stars with my pre-trained models in `models/`.
 
 ### Getting the data
 
