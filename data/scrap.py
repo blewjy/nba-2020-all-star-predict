@@ -76,7 +76,7 @@ if season == 2020:
   asg_2020 = datetime(2020, 2, 16) 
   if today < asg_2020:
     today = today - timedelta(days=2)
-    asg_date = today.strftime("%b %-d, %Y")
+    asg_date = today.strftime("%b %d, %Y")
 
 # Get the standings for all teams just before ASG
 standings = get_standings_and_win_pct_by_date(SEASON, asg_date)
