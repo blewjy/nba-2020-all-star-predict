@@ -20,28 +20,28 @@ Three different algorithms were used for this project, namely **Decision Trees w
 
 While **Decision Trees with Boosting** had the best performance out of the three algorithms (by a slim margin), all three of them performed relatively similar to each other. I decided to use the average (normalized) probabilities predicted by each of these algorithms for the final result:
 
-*(Ran prediction on 5th Jan 2020)*
+*(Ran prediction on 31st Jan 2020)*
 
 | **East**              |     |       | **West**           |     |       |
 | --------------------- | --- | ----- | ------------------ | --- | ----- |
 | **Starters:**         |     |       | **Starters:**      |     |       |
-| Giannis Antetokounmpo | PF  | 1.0   | James Harden       | SG  | 0.999 |
-| Joel Embiid           | C   | 0.944 | Luka Dončić        | PG  | 0.996 |
-| Pascal Siakam         | PF  | 0.926 | Anthony Davis      | PF  | 0.995 |
-| Kemba Walker          | PG  | 0.885 | Kawhi Leonard      | SF  | 0.961 |
-| Trae Young            | PG  | 0.88  | Nikola Jokić       | C   | 0.881 |
+| Giannis Antetokounmpo | PF  | 1.0   | James Harden       | SG  | 0.997 |
+| Trae Young            | PG  | 0.965 | Luka Dončić        | PG  | 0.994 |
+| Pascal Siakam         | PF  | 0.96  | Kawhi Leonard      | SF  | 0.993 |
+| Joel Embiid           | C   | 0.956 | Anthony Davis      | PF  | 0.993 |
+| Bradley Beal          | SG  | 0.948 | Nikola Jokić       | C   | 0.968 |
 | **Reserves:**         |     |       | **Reserves:**      |     |       |
-| Jimmy Butler          | SF  | 0.865 | LeBron James       | PG  | 0.993 |
-| Bradley Beal          | SG  | 0.853 | Russell Westbrook  | PG  | 0.966 |
-| Jayson Tatum          | PF  | 0.811 | Damian Lillard     | PG  | 0.931 |
-| Kyrie Irving          | PG  | 0.738 | Donovan Mitchell   | SG  | 0.89  |
-| Kyle Lowry            | PG  | 0.69  | Paul George        | SF  | 0.827 |
-| Domantas Sabonis      | C   | 0.683 | Karl-Anthony Towns | C   | 0.634 |
-| Bam Adebayo           | C   | 0.668 | Brandon Ingram     | PF  | 0.555 |
+| Jimmy Butler          | SF  | 0.921 | LeBron James       | PG  | 0.993 |
+| Kyle Lowry            | PG  | 0.886 | Russell Westbrook  | PG  | 0.981 |
+| Kemba Walker          | PG  | 0.883 | Damian Lillard     | PG  | 0.979 |
+| Domantas Sabonis      | C   | 0.856 | Donovan Mitchell   | SG  | 0.952 |
+| Jayson Tatum          | PF  | 0.842 | Paul George        | SF  | 0.858 |
+| Zach LaVine           | SG  | 0.83  | Rudy Gobert        | C   | 0.834 |
+| Khris Middleton       | SF  | 0.826 | Karl-Anthony Towns | C   | 0.812 |
 
 > NOTE: These results are purely based on statistics of the players. There are many other non-statistical factors that come into play when it comes to All-Star selection, including narrative, fan-popularity, etc. These factors are very difficult to capture using numbers, and hence the results here do not tell the whole story. Nevertheless, statistics is usually a reliable reflection of the player's performance and popularity, which is convenient for us in this case. 
 
-> I will update results here once more just before the start of All-Star Weekend to reflect the most updated statistics.
+> [Finalized 2020 NBA All-Star Roster](https://www.nba.com/allstar/2020/roster#/)
 
 ## Running the code
 
